@@ -9,9 +9,6 @@
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$('body').scrollspy({ target: '#left-navbar' });
-			$('#microcar').click(function(){
-				
-			});
 		});
 	</script>
 </head>
@@ -41,11 +38,14 @@
 						<li><a id="full-luxury" href="full_luxury_car.html">Full-size</a></li>
 					</ul>
 				</li>
-				<li><a id="sports" href="#">Sports car</a></li>
-				<li><a id="grand-tourer" href="#">Grand tourer</a></li>
-				<li><a id="supercar" href="#">Supercar</a></li>
-				<li><a id="convertible" href="#">Convertible</a></li>
-				<li><a id="roadster" href="#">Roadster</a></li>
+				<li class="dropdown">
+					<a class="dropdown-toggle" href="#" data-toggle="dropdown">Sports car<b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a id="roadster" href="roadster.html">Roadster</a></li>
+						<li><a id="grand-tourer" href="GT.html">Grand tourer</a></li>
+						<li><a id="supercar" href="supercar.html">Supercar</a></li>
+					</ul>
+				</li>				
 				<li class="dropdown">
 					<a class="dropdown-toggle" href="#" data-toggle="dropdown">MPV<b class="caret"></b></a>
 					<ul class="dropdown-menu">
